@@ -278,6 +278,7 @@ section{
     flex: 1 1 42rem;
 }
 
+
 .home .row .book-slider{
     flex: 1 1 42rem;
     text-align: center;
@@ -298,15 +299,45 @@ section{
 }
 
 .home .row .content h3{
+    color: var(--black);
+    font-size: 3rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.home .row .content p{
     color: var(--light-color);
     font-size: 1.5rem;
     line-height: 2;
     padding: 1rem 0;
 }
 
-.home .row .content p{
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.3rem;
+}
+
+.icon-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+.icon-container .icons i{
+    font-size: 3.5rem;
+    color: var(--blue);
+}
+
+.icon-container .icons h3{
+    font-size: 2.2rem;
     color: var(--black);
-    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.icon-container .icons p{
+    font-size: 1.4rem;
+    color: var(--light-color);
 }
 
 @media (max-width:991px){
